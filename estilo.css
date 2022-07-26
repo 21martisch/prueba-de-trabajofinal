@@ -14,7 +14,7 @@ ul{
     margin: auto;
 }
 .navegacion{
-    font-size: 18px;
+    font-size: 19px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +33,10 @@ ul{
 .navegacion ul{
     display: flex;
 }
-.navegacion ul li{
-    padding: 23px;
+.nav-menu{
+    padding: 25px;
+}
+.navegacion ul li a:hover{
+    border-bottom: 3px solid rgb(39, 39, 105);
+
 }
