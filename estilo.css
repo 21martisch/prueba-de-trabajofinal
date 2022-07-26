@@ -1,3 +1,38 @@
 body{
-    background-color: rgb(175, 171, 171);
+    background-color: white;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.navegacion{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+}
+.navegacion h2{
+    flex: 1;
+    margin: 20px;
+}
+.name{
+    color: rgb(25, 25, 77);
+    width: 50px;
+}
+.navegacion ul{
+    display: flex;
+}
+.navegacion ul li{
+    padding: 23px;
 }
