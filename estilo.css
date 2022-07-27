@@ -38,5 +38,27 @@ ul{
 }
 .navegacion ul li a:hover{
     border-bottom: 3px solid rgb(39, 39, 105);
-
+}
+.banner{
+    width: 100%;
+    height: 470px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/imgbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Uchen', serif;
 }
