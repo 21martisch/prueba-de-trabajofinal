@@ -74,13 +74,32 @@ ul{
     background-color: white;
     padding: 20px;
     border: 1px solid black;
-    text-align: center;
+    text-align:left;
 }
 .sobre-elclub{
     grid-column: 1/7;
     margin-left: -35px;
+    height: 1870px;
 }
 .aside-fotos{
     grid-column: 7/8;
     margin-right: -125px;
+    height: 800px;
+}
+.sobre-elclub h2{
+    color: rgb(25, 25, 79);
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+.sobre-elclub p{
+    font-size: 23px;
+    font-family: 'Taviraj', serif;
+}
+.sobre-elclub .p-pileta{
+    font-size: 15px;
+}
+.video,
+.sobre-elclub .p-video{
+    align-items: center;
+    font-size: 15px;
 }
