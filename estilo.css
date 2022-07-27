@@ -2,6 +2,9 @@ body{
     background-color: white;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     color: black;
     text-decoration: none;
@@ -14,6 +17,7 @@ ul{
     margin: auto;
 }
 .navegacion{
+    background-color: white;
     font-size: 19px;
     display: flex;
     justify-content: space-between;
@@ -34,8 +38,14 @@ ul{
     display: flex;
 }
 .nav-menu{
-    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.873);
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    right: 80px;
+    padding: 20px;
 }
+
 .navegacion ul li a:hover{
     border-bottom: 3px solid rgb(39, 39, 105);
 }
@@ -102,4 +112,17 @@ ul{
 .sobre-elclub .p-video{
     align-items: center;
     font-size: 15px;
+}
+.contenedor-cuotas{
+    background-color: rgb(7, 3, 53);
+    height: 800px;
+    color: white;
+    text-align: center;
+}
+.contenedor-cuotas .cuotas{
+    padding: 50px 0px;
+}
+.contenedor-cuotas h2{
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
 }
