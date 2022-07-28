@@ -238,5 +238,18 @@ ul{
 }
 .contenedor-beneficios i {
     font-size: 23px;
+}
+.contenedor-deportes{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 15px;
+    height: 900px;
     
 }
+.deportes img{
+    border-radius: 10px;
+    margin-left:35px;
+    margin-top: 10px;
+}
+
+
