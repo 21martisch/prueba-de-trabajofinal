@@ -141,6 +141,7 @@ ul{
     height: 500px;
     color: white;
     text-align: center;
+    width: 102.2%;
 }
 .contenedor-cuotas .cuotas{
     padding: 30px ;
@@ -243,6 +244,7 @@ ul{
     background-color: rgb(242, 205, 161);
     text-align: center;
     padding: 25px;
+    width: 98.5%;
 }
 .contenedor-beneficios h2{
     color: rgb(25, 25, 79);
@@ -267,10 +269,10 @@ ul{
 }
 .contenido{
     background: #9ba2f1;
-    width: 90%;
-    padding: 30px;
+    width: 100%;
+    padding: 15px;
     margin: auto;
-    margin-top: 90px;
+    
     border-radius: 4px;
     color: black;
     box-shadow: 7px 13px 37px rgba(245, 245, 245, 0.418);
@@ -320,6 +322,19 @@ ul{
     border-bottom: 1.8px solid blueviolet;
 
 }
+.footer-conteiner{
+    background-color: rgb(195, 195, 195);
+    width: 99.5%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.footer-conteiner h2{
+    color: rgb(25, 25, 79);
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+}
 @media (max-width: 1280px){
     #icono_menu{
         display: block;
@@ -329,23 +344,27 @@ ul{
     .navegacion ul li{
         padding: 20px;
         flex-direction: column;
-        background: rgba(128, 128, 128, 0.832);
+        /*background: rgba(128, 128, 128, 0.832);*/
+        transition: all 300ms;
         
     }
     .nav_menu{
-        height: 0px;
-        background-color: transparent;
+        
+        height: 0 ;
+        background-color:transparent;
         position: absolute;
-        right: -18px;
-        top: 30px;
+        right: 67px;
+        top: 50px;
         overflow: hidden;
-        width: 300px;
+        width: 200px;
         z-index: 10;
         transition: all 300ms;
     }
     /*esta clase es manipulada por javascript*/
     .mostrar_menu{ 
-        height: 1000px;
+        height: 160px;
+        background-color: rgba(128, 128, 128, 0.832);
     }
 
 }
+
