@@ -5,26 +5,29 @@
     <title>CLUB SOMISA</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/b625b0e251.js" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>
+    
 
 </head>
 <body>
+    
     <div class="container">
         <nav class="navegacion">
             <img src="img/logo-clubsomisa.jpg" alt="" class="logo">
             <h2 class="name">Club Somisa</h2>
-            <ul class="nav-menu">
+            <ul class="nav_menu">
                 <li>
-                    <a href="#Inicio">Inicio |</a>
-                    <a href="#formulario">Contacto |</a>
-                    <a href="#cuota-social">Cuota Social |</a>
-                    <a href="#Beneficios">Beneficios |</a>
-                    <a href="#deportes-instalaciones">Deportes e Instalaciones</a>
+                    <a href="#Inicio">|Inicio |</a>
+                    <a href="#formulario">|Contacto |</a>
+                    <a href="#cuota-social">|Cuota Social |</a>
+                    <a href="#Beneficios">|Beneficios |</a>
+                    <a href="#deportes-instalaciones">|Deportes e Instalaciones|</a>
                 </li>
             </ul>
+            <i class="fa-solid fa-bars" id="icono_menu"></i>
+            
         </nav>
-        <i class="fa-solid fa-bars"></i>
         <hr>
+        
         <header class="banner">
             <h1>CLUB SOMISA</h1>
         </header>
@@ -194,9 +197,9 @@
             </section>
 
         </section>
-        <div class="contenido">
-            <h1 class="titulo">FORMULARIO</h1>
-            <form class="form" autocomplete="off">
+        <div class="contenido" id="formulario">
+            <h2 class="titulo">FORMULARIO DE CONTACTO</h2>
+            <form class="form" >
                 <label><span>➟</span><b>Nombre</b></label><br>
                 <input type="text" name="Nombre" placeholder="" maxlength="20">  <br>
                 <label><span>➟</span><b>Apellido</b></label>
@@ -212,6 +215,7 @@
         </div>
 
     </div>
+    <script src="javascript.js"></script>
 
 </body>
 </html>

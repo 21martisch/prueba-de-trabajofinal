@@ -26,11 +26,15 @@ ul{
     
 }
 .navegacion{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.634);
     font-size: 19px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
+    
+    
+    
 }
 .logo{
     width: 60px;
@@ -45,8 +49,16 @@ ul{
 }
 .navegacion ul{
     display: flex;
+    padding: 20px;
+    
+
 }
-.nav-menu{
+.navegacion ul li{
+    
+    display: flex;
+    flex-direction: row;
+}
+.nav_menu{
     background-color: rgba(255, 255, 255, 0.873);
     border-radius: 10px;
     position: fixed;
@@ -54,7 +66,9 @@ ul{
     right: 80px;
     padding: 20px;
 }
-
+#icono_menu{
+    display: none;
+}
 .navegacion ul li a:hover{
     border-bottom: 3px solid rgb(39, 39, 105);
 }
@@ -251,5 +265,87 @@ ul{
     margin-left:35px;
     margin-top: 10px;
 }
+.contenido{
+    background: #9ba2f1;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    color: black;
+    box-shadow: 7px 13px 37px rgba(245, 245, 245, 0.418);
 
+}
+.titulo{
+    text-align: center;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    border-bottom: 2px solid;
+}
+.form {
+    margin: 0;
+    padding: 1em;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.form button {
+    width: 100%;
+    background: #091f54ad;
+    border: none;
+    padding: 10px;
+    margin: 9px 0px;
+    color: white;
+    font-size: 20px;
+    
+}
+.form button:hover,
+.form button:focus{
+    background: rgb(71, 106, 196) ;
+    color: black;
+    transition: background-color 1s ease-out;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    border-bottom: 1.8px solid blueviolet;
 
+}
+@media (max-width: 1280px){
+    #icono_menu{
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .navegacion ul li{
+        padding: 20px;
+        flex-direction: column;
+        background: rgba(128, 128, 128, 0.832);
+        
+    }
+    .nav_menu{
+        height: 0px;
+        background-color: transparent;
+        position: absolute;
+        right: -18px;
+        top: 30px;
+        overflow: hidden;
+        width: 300px;
+        z-index: 10;
+        transition: all 300ms;
+    }
+    /*esta clase es manipulada por javascript*/
+    .mostrar_menu{ 
+        height: 1000px;
+    }
+
+}
