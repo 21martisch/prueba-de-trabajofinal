@@ -16,6 +16,15 @@ ul{
     width: 90%;
     margin: auto;
 }
+.container p{
+    font-size: 18px;
+}
+.pag-cuotas{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
 .navegacion{
     background-color: white;
     font-size: 19px;
