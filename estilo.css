@@ -129,7 +129,7 @@ ul{
     text-align: center;
 }
 .contenedor-cuotas .cuotas{
-    padding: 50px 0px;
+    padding: 30px ;
 }
 .contenedor-cuotas .preciocuotas{
     display: flex;
@@ -224,4 +224,19 @@ ul{
     background-color: rgba(24, 24, 69, 0.633);
     color: white;
     border: 2px solid white;
+}
+.contenedor-beneficios{
+    background-color: rgb(242, 205, 161);
+    text-align: center;
+    padding: 25px;
+}
+.contenedor-beneficios h2{
+    color: rgb(25, 25, 79);
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+}
+.contenedor-beneficios i {
+    font-size: 23px;
+    
 }
